@@ -1,0 +1,11 @@
+<ion-list>
+  <ion-list-header>Item Avatars</ion-list-header>
+  <ion-item *ngFor="let customer of customers">
+    <ion-avatar slot="start">
+      <img src="../../../assets/my pic.jpg">
+    </ion-avatar>
+    <ion-label>{{customer.id}}</ion-label>
+    <p>{{customer.subject}}</p>
+  </ion-item>
+</ion-list>
+
